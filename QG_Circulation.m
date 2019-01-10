@@ -1,11 +1,8 @@
-% % % Luke Kachelein
-% % % SIOC 209
-% % % Final Project
-% % % 
-
 % "Using a simple numerical QG model for wind-driven ocean circulation,
 % find the streamfunction when the shape of the basin is varied and several
 % islands are added at various locations."
+
+% % % Written by Luke Kachelein as the final project for SIOC 209 (Fall 2017)
 
 % full equation (w/o simplifications) is equation 2.3.2 in Pedlosky.
 
@@ -77,7 +74,7 @@ imagesc(Domain)
 % Grid size
 d = 111000; % 111km ~ 1 degree
 
-% Om = (7.2921150 ± 0.0000001) ×10^-5 radians per SI second
+% Om = (7.2921150 Â± 0.0000001) Ã—10^-5 radians per SI second
 Om = (7.2921150)*10^-5;
 
 f0 = 2*Om*sind(45); % average (or typical?) Coriolis parameter
